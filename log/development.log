@@ -19943,3 +19943,343 @@ Processing by PagesController#show as HTML
 Completed 200 OK in 8ms (Views: 6.6ms | Allocations: 3506)
 
 
+Started GET "/pages/workouts" for 98.194.14.73 at 2021-12-02 02:27:01 +0000
+Cannot render console from 98.194.14.73! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"workouts"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/workouts.html.erb within layouts/application
+  Rendered pages/workouts.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 54.5ms | Allocations: 2832)
+Completed 200 OK in 60ms (Views: 57.4ms | Allocations: 3266)
+
+
+Started GET "/pages/chest" for 98.194.14.73 at 2021-12-02 02:27:02 +0000
+Cannot render console from 98.194.14.73! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"chest"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/chest.html.erb within layouts/application
+  Rendered pages/chest.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 2730)
+Completed 200 OK in 7ms (Views: 5.9ms | Allocations: 3161)
+
+
+Started GET "/pages/chest" for 98.194.14.73 at 2021-12-02 02:27:27 +0000
+Cannot render console from 98.194.14.73! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"chest"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/chest.html.erb within layouts/application
+  Rendered pages/chest.html.erb within layouts/application (Duration: 0.5ms | Allocations: 192)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 3300)
+Completed 200 OK in 9ms (Views: 8.7ms | Allocations: 4608)
+
+
+Started GET "/pages/chest" for 98.194.14.73 at 2021-12-02 02:27:48 +0000
+Cannot render console from 98.194.14.73! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"chest"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/chest.html.erb within layouts/application
+  Rendered pages/chest.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 2730)
+Completed 200 OK in 7ms (Views: 5.7ms | Allocations: 3209)
+
+
+Started GET "/pages/chest" for 98.194.14.73 at 2021-12-02 02:27:50 +0000
+Cannot render console from 98.194.14.73! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"chest"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/chest.html.erb within layouts/application
+  Rendered pages/chest.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 2730)
+Completed 200 OK in 13ms (Views: 12.0ms | Allocations: 3158)
+
+
+Started GET "/" for 104.189.66.218 at 2021-12-02 02:29:22 +0000
+Cannot render console from 104.189.66.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ubuntu/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ubuntu/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 9.7ms | Allocations: 268)
+Completed 200 OK in 13ms (Views: 11.2ms | Allocations: 1054)
+
+
+Started GET "/" for 104.189.66.218 at 2021-12-02 02:29:22 +0000
+Cannot render console from 104.189.66.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ubuntu/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ubuntu/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.4ms | Allocations: 49)
+Completed 200 OK in 2ms (Views: 1.0ms | Allocations: 451)
+
+
+Started GET "/pages/chest" for 104.189.66.218 at 2021-12-02 02:29:40 +0000
+Cannot render console from 104.189.66.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"chest"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/chest.html.erb within layouts/application
+  Rendered pages/chest.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 2892)
+Completed 200 OK in 11ms (Views: 10.3ms | Allocations: 3273)
+
+
+Started GET "/pages/chest" for 104.189.66.218 at 2021-12-02 02:31:18 +0000
+Cannot render console from 104.189.66.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"chest"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/chest.html.erb within layouts/application
+  Rendered pages/chest.html.erb within layouts/application (Duration: 0.5ms | Allocations: 202)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 3316)
+Completed 200 OK in 14ms (Views: 11.9ms | Allocations: 4635)
+
+
+Started GET "/pages/chest" for 104.189.66.218 at 2021-12-02 02:31:36 +0000
+Cannot render console from 104.189.66.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"chest"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/chest.html.erb within layouts/application
+  Rendered pages/chest.html.erb within layouts/application (Duration: 0.6ms | Allocations: 233)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 3341)
+Completed 200 OK in 12ms (Views: 11.5ms | Allocations: 4695)
+
+
+Started GET "/pages/chest" for 104.189.66.218 at 2021-12-02 02:31:47 +0000
+Cannot render console from 104.189.66.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"chest"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/chest.html.erb within layouts/application
+  Rendered pages/chest.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 2736)
+Completed 200 OK in 11ms (Views: 9.9ms | Allocations: 3217)
+
+
+Started GET "/pages/chest" for 104.189.66.218 at 2021-12-02 02:32:34 +0000
+Cannot render console from 104.189.66.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"chest"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/chest.html.erb within layouts/application
+  Rendered pages/chest.html.erb within layouts/application (Duration: 0.5ms | Allocations: 201)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 3309)
+Completed 200 OK in 10ms (Views: 9.6ms | Allocations: 4612)
+
+
+Started GET "/pages/chest" for 104.189.66.218 at 2021-12-02 02:32:41 +0000
+Cannot render console from 104.189.66.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"chest"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/chest.html.erb within layouts/application
+  Rendered pages/chest.html.erb within layouts/application (Duration: 0.7ms | Allocations: 206)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 3314)
+Completed 200 OK in 12ms (Views: 10.8ms | Allocations: 4669)
+
+
+Started GET "/pages/workouts" for 104.189.66.218 at 2021-12-02 02:35:22 +0000
+Cannot render console from 104.189.66.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"workouts"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/workouts.html.erb within layouts/application
+  Rendered pages/workouts.html.erb within layouts/application (Duration: 0.9ms | Allocations: 214)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.7ms | Allocations: 2907)
+Completed 200 OK in 21ms (Views: 20.3ms | Allocations: 3515)
+
+
+Started GET "/pages/macros" for 104.189.66.218 at 2021-12-02 02:35:24 +0000
+Cannot render console from 104.189.66.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"macros"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/macros.html.erb within layouts/application
+  Rendered pages/macros.html.erb within layouts/application (Duration: 0.7ms | Allocations: 245)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.9ms | Allocations: 2938)
+Completed 200 OK in 25ms (Views: 24.2ms | Allocations: 3495)
+
+
+Started GET "/pages/workouts" for 104.189.66.218 at 2021-12-02 02:35:25 +0000
+Cannot render console from 104.189.66.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"workouts"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/workouts.html.erb within layouts/application
+  Rendered pages/workouts.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 3691)
+Completed 200 OK in 14ms (Views: 13.7ms | Allocations: 4123)
+
+
+Started GET "/pages/chest" for 104.189.66.218 at 2021-12-02 02:35:26 +0000
+Cannot render console from 104.189.66.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"chest"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/chest.html.erb within layouts/application
+  Rendered pages/chest.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 3662)
+Completed 200 OK in 10ms (Views: 9.6ms | Allocations: 4095)
+
+
+Started GET "/pages/workouts" for 104.189.66.218 at 2021-12-02 02:35:28 +0000
+Cannot render console from 104.189.66.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"workouts"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/workouts.html.erb within layouts/application
+  Rendered pages/workouts.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 3686)
+Completed 200 OK in 10ms (Views: 8.9ms | Allocations: 4117)
+
+
+Started GET "/pages/macros" for 104.189.66.218 at 2021-12-02 02:35:28 +0000
+Cannot render console from 104.189.66.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"macros"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/macros.html.erb within layouts/application
+  Rendered pages/macros.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 3515)
+Completed 200 OK in 9ms (Views: 8.4ms | Allocations: 4103)
+
+
+Started GET "/pages/workouts" for 104.189.66.218 at 2021-12-02 02:35:29 +0000
+Cannot render console from 104.189.66.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"workouts"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/workouts.html.erb within layouts/application
+  Rendered pages/workouts.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 3694)
+Completed 200 OK in 10ms (Views: 9.7ms | Allocations: 4127)
+
+
+Started GET "/pages/macros" for 104.189.66.218 at 2021-12-02 02:35:30 +0000
+Cannot render console from 104.189.66.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"macros"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/macros.html.erb within layouts/application
+  Rendered pages/macros.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 3674)
+Completed 200 OK in 16ms (Views: 14.7ms | Allocations: 4105)
+
+
+Started GET "/pages/workouts" for 104.189.66.218 at 2021-12-02 02:35:30 +0000
+Cannot render console from 104.189.66.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"workouts"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/workouts.html.erb within layouts/application
+  Rendered pages/workouts.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.4ms | Allocations: 3649)
+Completed 200 OK in 18ms (Views: 17.2ms | Allocations: 4081)
+
+
+Started GET "/pages/macros" for 104.189.66.218 at 2021-12-02 02:35:31 +0000
+Cannot render console from 104.189.66.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"macros"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/macros.html.erb within layouts/application
+  Rendered pages/macros.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 2730)
+Completed 200 OK in 6ms (Views: 5.2ms | Allocations: 3161)
+
+
+Started GET "/pages/workouts" for 104.189.66.218 at 2021-12-02 02:35:32 +0000
+Cannot render console from 104.189.66.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"workouts"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/workouts.html.erb within layouts/application
+  Rendered pages/workouts.html.erb within layouts/application (Duration: 0.3ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 3667)
+Completed 200 OK in 10ms (Views: 9.7ms | Allocations: 4098)
+
+
+Started GET "/pages/chest" for 104.189.66.218 at 2021-12-02 02:35:33 +0000
+Cannot render console from 104.189.66.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"chest"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/chest.html.erb within layouts/application
+  Rendered pages/chest.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.8ms | Allocations: 3658)
+Completed 200 OK in 21ms (Views: 20.5ms | Allocations: 4089)
+
+
+Started GET "/pages/chest" for 104.189.66.218 at 2021-12-02 02:36:11 +0000
+Cannot render console from 104.189.66.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"chest"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/chest.html.erb within layouts/application
+  Rendered pages/chest.html.erb within layouts/application (Duration: 0.9ms | Allocations: 205)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.8ms | Allocations: 3318)
+Completed 200 OK in 47ms (Views: 44.3ms | Allocations: 4626)
+
+
+Started GET "/pages/chest" for 104.189.66.218 at 2021-12-02 02:36:24 +0000
+Cannot render console from 104.189.66.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"chest"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/chest.html.erb within layouts/application
+  Rendered pages/chest.html.erb within layouts/application (Duration: 0.6ms | Allocations: 209)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 3317)
+Completed 200 OK in 10ms (Views: 9.5ms | Allocations: 4671)
+
+
+Started GET "/pages/chest" for 104.189.66.218 at 2021-12-02 02:37:02 +0000
+Cannot render console from 104.189.66.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"chest"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/chest.html.erb within layouts/application
+  Rendered pages/chest.html.erb within layouts/application (Duration: 1.3ms | Allocations: 215)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 3329)
+Completed 200 OK in 16ms (Views: 12.7ms | Allocations: 4690)
+
+
+Started GET "/pages/chest" for 104.189.66.218 at 2021-12-02 02:37:42 +0000
+Cannot render console from 104.189.66.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"chest"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/chest.html.erb within layouts/application
+  Rendered pages/chest.html.erb within layouts/application (Duration: 0.6ms | Allocations: 201)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 3315)
+Completed 200 OK in 10ms (Views: 9.5ms | Allocations: 4669)
+
+
