@@ -22,20 +22,19 @@ body, html {
 </style>
 <body>
 
-<Navbar (sit on top) -->
+<!--<Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar" id="myNavbar">
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="#jozfitness" class="w3-bar-item ">JOZ-Fitness</a>
+      <a href="#jozfitness" class="w3-bar-item ">JOZ-Fitness</a>
     <a href="https://05daff7e971f4daab2db59f54188bd80.vfs.cloud9.us-east-2.amazonaws.com/pages/home" class="w3-bar-item w3-button ">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-    <a href="https://05daff7e971f4daab2db59f54188bd80.vfs.cloud9.us-east-2.amazonaws.com/pages/login" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-desktop"></i> LOGIN</a>
+     <a href="https://05daff7e971f4daab2db59f54188bd80.vfs.cloud9.us-east-2.amazonaws.com/pages/workouts" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-anchor"></i> WORKOUTS</a>
+    <a href="https://05daff7e971f4daab2db59f54188bd80.vfs.cloud9.us-east-2.amazonaws.com/pages/login" class="w3-bar-item w3-button w3-hide-small w3-right"><i class="fa fa-desktop"></i> LOGIN</a>
+        <!--<a href="https://05daff7e971f4daab2db59f54188bd80.vfs.cloud9.us-east-2.amazonaws.com/pages/signup" class="w3-bar-item w3-button w3-hide-small w3-right"><i class="fa fa-user"></i> SIGN UP</a> -->
     <a href="https://05daff7e971f4daab2db59f54188bd80.vfs.cloud9.us-east-2.amazonaws.com/pages/macros" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-calculator"></i> MACRO</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
-      <i class="fa fa-search"></i>
-    </a>
+  
   </div>
 
   <!-- Navbar on small screens -->
@@ -48,20 +47,66 @@ body, html {
 </div>
 
 <!--Workout links-->
-<h1 style="text-align:center; padding-top: 20px"><b>WORKOUTS</b></h1>
-<h2 style="text-align:left;">Upper-Body:</h2>
+<h1 style="text-align:center; padding-top: 20px"><b><font size= "50px">WORKOUTS</font></b></h1>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
 
 
-<div class='container1'>
-        
-    <div style='margin-left:0px;'>
-      
-      
-  <left><font size= "5px"><a href="https://05daff7e971f4daab2db59f54188bd80.vfs.cloud9.us-east-2.amazonaws.com/pages/macros">Chest</a></font></left>
-    <div>
-            <left><img src='https://shockingfit.com/wp-content/uploads/2013/02/Barbell_Bench_Press_Exercise1.jpg' alt='iconDetails' width="150" height="150"></left>
-        </div>  
-    </div>
-</div> 
+<div class="row">
+  <div class="column">
+    <font size= "40px"><a href="https://05daff7e971f4daab2db59f54188bd80.vfs.cloud9.us-east-2.amazonaws.com/pages/chest">Chest</a></font>
+    <img src="https://shockingfit.com/wp-content/uploads/2013/02/Barbell_Bench_Press_Exercise1.jpg" alt="Snow" height= 375px style="width:100%">
+  </div>
+  <div class="column">
+    <font size= "40x"><a href="https://05daff7e971f4daab2db59f54188bd80.vfs.cloud9.us-east-2.amazonaws.com/pages/macros">Back</a></font>
+    <img src="https://i.ytimg.com/vi/mK2X48vkluM/sddefault.jpg" alt="Forest" height= 375px style="width:100%">
+  </div>
+  <div class="column">
+    <right><font size= "40px"><a href="https://05daff7e971f4daab2db59f54188bd80.vfs.cloud9.us-east-2.amazonaws.com/pages/macros">Shoulders</a></font></right>
+    <img src="https://corewalking.com/wp-content/uploads/2013/11/shoulder-muscles2.jpg" alt="Mountains" height= 375px style="width:100%">
+  </div>
+</div>
 
+<div class="row">
+  <div class="column">
+    <font size= "40px"><a href="https://05daff7e971f4daab2db59f54188bd80.vfs.cloud9.us-east-2.amazonaws.com/pages/macros">Biceps</a></font>
+    <img src="http://leehayward.com/blog/wp-content/uploads/2011/12/brachialis.jpg" alt="Snow" height= 375px style="width:100%">
+  </div>
+  <div class="column">
+    <font size= "40x"><a href="https://05daff7e971f4daab2db59f54188bd80.vfs.cloud9.us-east-2.amazonaws.com/pages/macros">Triceps</a></font>
+    <img src="https://athleanx.com/wp-content/uploads/2015/06/triceps-muscles-anatomy-long-lateral-medial-head-1024x576.jpg" alt="Forest" height= 375px style="width:100%">
+  </div>
+  <div class="column">
+    <right><font size= "40px"><a href="https://05daff7e971f4daab2db59f54188bd80.vfs.cloud9.us-east-2.amazonaws.com/pages/macros">Legs</a></font></right>
+    <img src="https://fit2functionclinic.co.uk/wp-content/uploads/2020/09/image-result-for-quadriceps-hamstring-and-adductor.jpeg" alt="Mountains" height= 375px style="width:100%">
+  </div>
+</div>
 
+<div class="row">
+  <div class="column">
+    <font size= "40px"><a href="https://05daff7e971f4daab2db59f54188bd80.vfs.cloud9.us-east-2.amazonaws.com/pages/macros">Abs</a></font>
+    <img src="https://www.sixpackfactory.com/wp-content/uploads/2011/10/six-pack-abs-anatomy.jpg" alt="Snow" height= 375px style="width:100%">
+  </div>
+  </div>
+  
+
+</body>
