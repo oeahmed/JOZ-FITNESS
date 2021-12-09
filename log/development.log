@@ -29512,3 +29512,324 @@ Processing by PagesController#show as HTML
 Completed 200 OK in 6ms (Views: 5.7ms | Allocations: 3161)
 
 
+Started GET "/pages/home" for 76.30.93.225 at 2021-12-08 21:12:02 +0000
+Cannot render console from 76.30.93.225! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 249)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 2948)
+Completed 200 OK in 9ms (Views: 8.4ms | Allocations: 3507)
+
+
+Started GET "/pages/home" for 76.30.93.225 at 2021-12-08 21:13:41 +0000
+Cannot render console from 76.30.93.225! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 2730)
+Completed 200 OK in 12ms (Views: 10.2ms | Allocations: 3159)
+
+
+Started GET "/pages/home" for 76.30.93.225 at 2021-12-09 01:30:30 +0000
+Cannot render console from 76.30.93.225! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.7ms | Allocations: 499)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 29.8ms | Allocations: 5650)
+Completed 200 OK in 109ms (Views: 75.1ms | ActiveRecord: 0.0ms | Allocations: 9294)
+
+
+Started GET "/" for 76.30.93.225 at 2021-12-09 01:59:41 +0000
+Cannot render console from 76.30.93.225! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ubuntu/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ubuntu/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 9.4ms | Allocations: 268)
+Completed 200 OK in 13ms (Views: 10.4ms | Allocations: 1354)
+
+
+Started GET "/pages/home" for 76.30.93.225 at 2021-12-09 01:59:44 +0000
+Cannot render console from 76.30.93.225! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.8ms | Allocations: 281)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 30.5ms | Allocations: 3390)
+Completed 200 OK in 40ms (Views: 38.9ms | Allocations: 4758)
+
+
+Started GET "/pages/home" for 76.30.93.225 at 2021-12-09 02:00:03 +0000
+Cannot render console from 76.30.93.225! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 2730)
+Completed 200 OK in 7ms (Views: 6.2ms | Allocations: 3210)
+
+
+Started GET "/pages/workouts" for 76.30.93.225 at 2021-12-09 02:00:09 +0000
+Cannot render console from 76.30.93.225! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"workouts"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/workouts.html.erb within layouts/application
+  Rendered pages/workouts.html.erb within layouts/application (Duration: 0.6ms | Allocations: 230)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 3853)
+Completed 200 OK in 12ms (Views: 11.6ms | Allocations: 4547)
+
+
+Started GET "/pages/chest" for 76.30.93.225 at 2021-12-09 02:00:11 +0000
+Cannot render console from 76.30.93.225! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"chest"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/chest.html.erb within layouts/application
+  Rendered pages/chest.html.erb within layouts/application (Duration: 0.9ms | Allocations: 228)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 2921)
+Completed 200 OK in 9ms (Views: 8.0ms | Allocations: 3600)
+
+
+Started GET "/pages/workouts" for 76.30.93.225 at 2021-12-09 02:00:16 +0000
+Cannot render console from 76.30.93.225! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"workouts"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/workouts.html.erb within layouts/application
+  Rendered pages/workouts.html.erb within layouts/application (Duration: 0.3ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 2730)
+Completed 200 OK in 13ms (Views: 12.0ms | Allocations: 3161)
+
+
+Started GET "/pages/back" for 76.30.93.225 at 2021-12-09 02:00:17 +0000
+Cannot render console from 76.30.93.225! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"back"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/back.html.erb within layouts/application
+  Rendered pages/back.html.erb within layouts/application (Duration: 1.1ms | Allocations: 281)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 3870)
+Completed 200 OK in 9ms (Views: 8.3ms | Allocations: 4472)
+
+
+Started GET "/pages/workouts" for 76.30.93.225 at 2021-12-09 02:00:21 +0000
+Cannot render console from 76.30.93.225! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"workouts"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/workouts.html.erb within layouts/application
+  Rendered pages/workouts.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 2730)
+Completed 200 OK in 10ms (Views: 7.3ms | Allocations: 3161)
+
+
+Started GET "/pages/goals" for 76.30.93.225 at 2021-12-09 02:00:26 +0000
+Cannot render console from 76.30.93.225! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"goals"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/goals.html.erb within layouts/application
+  Rendered pages/goals.html.erb within layouts/application (Duration: 0.7ms | Allocations: 191)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 2884)
+Completed 200 OK in 14ms (Views: 13.1ms | Allocations: 4479)
+
+
+Started GET "/pages/cutting-calc" for 76.30.93.225 at 2021-12-09 02:00:29 +0000
+Cannot render console from 76.30.93.225! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"cutting-calc"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/cutting-calc.html.erb within layouts/application
+  Rendered pages/cutting-calc.html.erb within layouts/application (Duration: 0.9ms | Allocations: 545)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 4288)
+Completed 200 OK in 10ms (Views: 9.0ms | Allocations: 4848)
+
+
+Started GET "/pages/cutting" for 76.30.93.225 at 2021-12-09 02:01:02 +0000
+Cannot render console from 76.30.93.225! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"cutting"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/cutting.html.erb within layouts/application
+  Rendered pages/cutting.html.erb within layouts/application (Duration: 0.9ms | Allocations: 173)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 2866)
+Completed 200 OK in 30ms (Views: 29.2ms | Allocations: 4457)
+
+
+Started GET "/pages/goals" for 76.30.93.225 at 2021-12-09 02:01:05 +0000
+Cannot render console from 76.30.93.225! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"goals"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/goals.html.erb within layouts/application
+  Rendered pages/goals.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 2730)
+Completed 200 OK in 6ms (Views: 5.3ms | Allocations: 3161)
+
+
+Started GET "/pages/maintenance-calc" for 76.30.93.225 at 2021-12-09 02:01:06 +0000
+Cannot render console from 76.30.93.225! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"maintenance-calc"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/maintenance-calc.html.erb within layouts/application
+  Rendered pages/maintenance-calc.html.erb within layouts/application (Duration: 1.8ms | Allocations: 544)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 4282)
+Completed 200 OK in 12ms (Views: 11.0ms | Allocations: 4843)
+
+
+Started GET "/pages/maintaining" for 76.30.93.225 at 2021-12-09 02:01:30 +0000
+Cannot render console from 76.30.93.225! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"maintaining"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/maintaining.html.erb within layouts/application
+  Rendered pages/maintaining.html.erb within layouts/application (Duration: 1.1ms | Allocations: 162)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 2855)
+Completed 200 OK in 9ms (Views: 8.7ms | Allocations: 3415)
+
+
+Started GET "/pages/goals" for 76.30.93.225 at 2021-12-09 02:01:32 +0000
+Cannot render console from 76.30.93.225! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"goals"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/goals.html.erb within layouts/application
+  Rendered pages/goals.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 2730)
+Completed 200 OK in 6ms (Views: 5.2ms | Allocations: 3161)
+
+
+Started GET "/pages/bulk-calc" for 76.30.93.225 at 2021-12-09 02:01:33 +0000
+Cannot render console from 76.30.93.225! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"bulk-calc"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/bulk-calc.html.erb within layouts/application
+  Rendered pages/bulk-calc.html.erb within layouts/application (Duration: 0.9ms | Allocations: 544)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 4276)
+Completed 200 OK in 12ms (Views: 11.1ms | Allocations: 4838)
+
+
+Started GET "/pages/maintenance-calc" for 76.30.93.225 at 2021-12-09 02:01:39 +0000
+Cannot render console from 76.30.93.225! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"maintenance-calc"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/maintenance-calc.html.erb within layouts/application
+  Rendered pages/maintenance-calc.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 2730)
+Completed 200 OK in 8ms (Views: 6.7ms | Allocations: 3163)
+
+
+Started GET "/pages/maintaining" for 76.30.93.225 at 2021-12-09 02:02:21 +0000
+Cannot render console from 76.30.93.225! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"maintaining"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/maintaining.html.erb within layouts/application
+  Rendered pages/maintaining.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 2848)
+Completed 200 OK in 8ms (Views: 7.7ms | Allocations: 3279)
+
+
+Started GET "/pages/goals" for 76.30.93.225 at 2021-12-09 02:02:38 +0000
+Cannot render console from 76.30.93.225! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"goals"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/goals.html.erb within layouts/application
+  Rendered pages/goals.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 2730)
+Completed 200 OK in 9ms (Views: 8.2ms | Allocations: 3161)
+
+
+Started GET "/pages/bulk-calc" for 76.30.93.225 at 2021-12-09 02:03:18 +0000
+Cannot render console from 76.30.93.225! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"bulk-calc"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/bulk-calc.html.erb within layouts/application
+  Rendered pages/bulk-calc.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 2854)
+Completed 200 OK in 13ms (Views: 12.2ms | Allocations: 3323)
+
+
+Started GET "/pages/bulk-calc" for 76.30.93.225 at 2021-12-09 02:19:40 +0000
+Cannot render console from 76.30.93.225! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"bulk-calc"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/bulk-calc.html.erb within layouts/application
+  Rendered pages/bulk-calc.html.erb within layouts/application (Duration: 0.9ms | Allocations: 605)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 3713)
+Completed 200 OK in 11ms (Views: 9.9ms | Allocations: 5020)
+
+
+Started GET "/pages/goals" for 76.30.93.225 at 2021-12-09 02:19:41 +0000
+Cannot render console from 76.30.93.225! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"goals"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/goals.html.erb within layouts/application
+  Rendered pages/goals.html.erb within layouts/application (Duration: 0.4ms | Allocations: 177)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 2870)
+Completed 200 OK in 12ms (Views: 11.7ms | Allocations: 3641)
+
+
+Started GET "/pages/workouts" for 76.30.93.225 at 2021-12-09 02:19:42 +0000
+Cannot render console from 76.30.93.225! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"workouts"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/workouts.html.erb within layouts/application
+  Rendered pages/workouts.html.erb within layouts/application (Duration: 0.7ms | Allocations: 206)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 2927)
+Completed 200 OK in 8ms (Views: 7.5ms | Allocations: 3531)
+
+
+Started GET "/pages/back" for 76.30.93.225 at 2021-12-09 02:19:43 +0000
+Cannot render console from 76.30.93.225! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"back"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/back.html.erb within layouts/application
+  Rendered pages/back.html.erb within layouts/application (Duration: 0.4ms | Allocations: 277)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 2992)
+Completed 200 OK in 7ms (Views: 6.1ms | Allocations: 3550)
+
+
