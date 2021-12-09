@@ -14,36 +14,7 @@
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
     
-    <style>
-      body,h1,h2,h3 {font-family: "Lato", sans-serif;}
-      body, html {
-      height: 100%;
-      color: #777;
-      line-height: 1.8;
-      }
-      /* Create a Parallax Effect */
-      .bgimg-1, .bgimg-2, .bgimg-3 {
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      }
-      /* First image (Logo. Full height) */
-      .bgimg-1 {
-      background-image: url('https://trumpwallpapers.com/wp-content/uploads/Workout-Wallpaper-08-2560-x-1440.jpg');
-      min-height: 100%;
-      }
-      .w3-wide {letter-spacing: 3px;}
-      .w3-hover-opacity {cursor: pointer;}
-      /* Turn off parallax scrolling for tablets and phones */
-      @media only screen and (max-device-width: 1600px) {
-      .bgimg-1, .bgimg-2, .bgimg-3 {
-      background-attachment: scroll;
-      min-height: 400px;
-      }
-      }
-    </style>
-    
+  
   </head>
 
   <body>
@@ -57,11 +28,11 @@
             <a href="/" class="w3-bar-item w3-button ">HOME</a>
             <a href="/pages/workouts" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-anchor"></i> WORKOUTS</a>
             <% if user_signed_in? %>
-              <%= link_to current_user.email, edit_user_registration_path %>
-              <%= link_to "Log out", destroy_user_session_path, method: :delete %>
+              <%= link_to current_user.email, edit_user_registration_path, class: "w3-bar-item w3-button w3-hide-small w3-right"  %>
+              <%= link_to "Log out", destroy_user_session_path, method: :delete, class: "w3-bar-item w3-button w3-hide-small w3-right"  %>
             <% else %>
-              <%= link_to '<i class="fa fa-desktop"></i>LOGIN', new_user_session_path, class: "w3-bar-item w3-button w3-hide-small w3-right" %>
-              <%= link_to '<i class="fa fa-user"></i>Register', new_user_registration_path, class: 'w3-bar-item w3-button w3-hide-small w3-right' %>
+              <%= link_to 'LOGIN', new_user_session_path, class: "w3-bar-item w3-button w3-hide-small w3-right" %>
+              <%= link_to 'REGISTER', new_user_registration_path, class: 'w3-bar-item w3-button w3-hide-small w3-right' %>
               
             <% end %>
             
