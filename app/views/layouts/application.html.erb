@@ -5,14 +5,85 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
     
+    <style>
+      body,h1,h2,h3 {font-family: "Lato", sans-serif;}
+      body, html {
+      height: 100%;
+      color: #777;
+      line-height: 1.8;
+      }
+      /* Create a Parallax Effect */
+      .bgimg-1, .bgimg-2, .bgimg-3 {
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
+      /* First image (Logo. Full height) */
+      .bgimg-1 {
+      background-image: url('http://trumpwallpapers.com/wp-content/uploads/Workout-Wallpaper-08-2560-x-1440.jpg');
+      min-height: 100%;
+      }
+      .w3-wide {letter-spacing: 3px;}
+      .w3-hover-opacity {cursor: pointer;}
+      /* Turn off parallax scrolling for tablets and phones */
+      @media only screen and (max-device-width: 1600px) {
+      .bgimg-1, .bgimg-2, .bgimg-3 {
+      background-attachment: scroll;
+      min-height: 400px;
+      }
+      }
+    </style>
+    
   </head>
 
   <body>
-    
+      <!--<Navbar (sit on top) -->
+      <div class="w3-top w3-white">
+         <div class="w3-bar" id="myNavbar">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+            <i class="fa fa-bars"></i>
+            </a>
+            <a href="/#joz-fitness" class="w3-bar-item ">JOZ-Fitness</a>
+            <a href="/" class="w3-bar-item w3-button ">HOME</a>
+            <a href="/pages/workouts" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-anchor"></i> WORKOUTS</a>
+            <% if user_signed_in? %>
+              <%= link_to current_user.email, edit_user_registration_path %>
+              <%= link_to "Log out", destroy_user_session_path, method: :delete %>
+            <% else %>
+              <%= link_to '<i class="fa fa-desktop"></i>LOGIN', new_user_session_path, class: "w3-bar-item w3-button w3-hide-small w3-right" %>
+              <%= link_to '<i class="fa fa-user"></i>Register', new_user_registration_path, class: 'w3-bar-item w3-button w3-hide-small w3-right' %>
+              
+            <% end %>
+            
+            
+            <a href="/pages/goals" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-calculator"></i> MACRO</a>
+         </div>
+         <!-- Navbar on small screens -->
+         <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+            <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+            <% if user_signed_in? %>
+              <%= link_to current_user.email, edit_user_registration_path %>
+              <%= link_to "Log out", destroy_user_session_path, method: :delete %>
+            <% else %>
+              <%= link_to "LOGIN", new_user_session_path, class: "w3-bar-item w3-button" %>
+              <%= link_to "Register", new_user_registration_path %>
+            <% end %>
+
+            
+            <a href="#contact" class="w3-bar-item w3-button" >CONTACT</a>
+            <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+         </div>
+      </div>
     <div class="container-fluid">
       <p class="notice row"><%= notice %></p>
       <p class="alert row"><%= alert %></p>
@@ -21,5 +92,16 @@
        
        
     <%= yield %>
+    
+    <!-- Footer -->
+   <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+      <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+      <div class="w3-xlarge w3-section">
+         <i class="fa fa-facebook-official w3-hover-opacity"></i>
+         <i class="fa fa-instagram w3-hover-opacity"></i>
+         <i class="fa fa-snapchat w3-hover-opacity"></i>
+         <i class="fa fa-twitter w3-hover-opacity"></i>
+      </div>
+   </footer>
   </body>
 </html>
